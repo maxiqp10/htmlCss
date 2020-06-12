@@ -1,0 +1,187 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    background: #7ACC2D;
+    color: #313337;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #313337;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+/* aui acaba el navbar */
+
+
+.mainSection{
+
+    text-align: center;
+    padding: 10%;
+}
+
+.products{
+    background-image: url("../images/curve.png");
+    background-size: cover; 
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    max-height: 50px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+
+.product{
+
+    padding: 10px;
+    margin-top: -260px;
+}
+
+.caja{
+
+    background: white;
+    padding: 20px;
+}
+
+figure{
+
+    text-align: center;
+}
+
+button{
+    background:#7ACC2D;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+
+    background-color: #95f839;
+}
+
+/* ---------------hero------------------ */
+
+.description{
+    
+    display: flex;
+    justify-content: center;
+    margin: 10% 0 ;
+    
+    
+}
+
+.card{
+
+    width: 20vw;
+    margin: 0 2vw;
+}
+
+.card img{
+
+    display: block;
+    max-width: 100%;
+} 
+
+.card figure{
+
+    margin: 0px;
+}
+
+
+/* -----------------.description ---------------- */
+
+.mentions{
+
+    display: flex;
+    justify-content: center; 
+    margin: 10vw 0;   
+}
+
+.comments{
+    width: 300px;
+    border-radius:10px;
+    margin: 10px;
+    box-shadow: 0 0 5px #c1bcbc;
+    overflow: hidden;
+}
+
+.comments-detail{
+    padding: 10px;
+}
+
+.comments img{
+
+    display: block;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;  
+
+}
+
+.comments figure{
+    margin: 0px;    
+}
+
+.menciones-title{
+    font-size: 4em;
+    text-align: center;
+}
+
+/* --------------mentions----------------- */
+
+footer{
+   
+   
+    align-items: center;
+    background-color: #313337;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li a{
+
+    color: white;
+    
+}
+
+footer ul li{
+    
+    display: block;
+}
+
+footer ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* --------------footer -------------*/
